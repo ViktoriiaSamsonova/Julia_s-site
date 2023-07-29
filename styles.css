@@ -1,0 +1,167 @@
+ /* Шапка */
+ header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  /* Секция Hero */
+  #hero {
+    background-color: #f8f8f8;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .hero-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .hero-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-container p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .hero-container button {
+    padding: 12px 30px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .hero-container button:hover {
+    background-color: #0056b3;
+  }
+  
+.btn {
+margin-top: 50px;
+margin-left: 50px;
+padding: 20px;
+border-radius: 90px;
+border: none;
+background-color: #FFE2E2;
+font-size: 20px;
+cursor: pointer;
+text-transform: uppercase;
+transition-duration: 0.5s;
+text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #FFC7C7;
+   
+}
+
+body {
+    background-color: #F6F6F6;
+    color:  #262626;
+}
+
+h1 {
+    color: #F35369;
+    font-family: 'Shantell Sans', cursive;
+}
+
+h2 {
+color:#F38E7B;
+font-family: 'Caveat', cursive;
+font-size: 50px;
+}
+
+a {
+    color: #8785A2;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: black
+    
+}
+
+.course_description,
+.important{
+    border: 1px solid #8785A2;
+    border-radius: 20px;
+    width: fit-content;
+    background-color: #f7ebf7;
+}
+
+.all_page_content {
+margin: 30px;
+font-family: 'Comfortaa', cursive;
+
+}
+
+.cost {
+    border-radius: 90%;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgb(247, 112, 152)
+}
+
+
+/* 
+.color_test1 {
+color: #FDEFED;
+background-color: #FBCCD2;;
+}
+
+.color_test2 {
+color: #F38E7B;
+}
+
+.color_test3 {
+color: #FB724B;
+}
+
+.color_test4 {
+    color: #EB660D;
+    }
+
+    .color_test5 {
+        color: #2D88FF;
+        }
+
+        .color_test6 {
+            color: #AAC9FF;
+            }
+
+            .color_test7 {
+                color: #65676B;
+                }
+
+                * {
+                  color: hsl(40, 89%, 52%);
+                    }
+
+                    * {
+                        color: #e41e3f;
+                        } */
+

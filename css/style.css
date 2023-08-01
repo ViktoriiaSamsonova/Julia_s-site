@@ -162,6 +162,8 @@ margin-bottom: 48px;
 
 .top__buy {
 padding: 18px 54px;
+justify-content: center;
+align-items: center;
 background: #FFBD59;
 font-size: 14px;
 font-weight: 600;

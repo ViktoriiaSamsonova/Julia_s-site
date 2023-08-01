@@ -45,12 +45,17 @@ font-family: 'Comfortaa', coursive;
 font-size: 14px;
 font-weight: 600;
 border-radius: 50px;
+display: block;
+max-width: fit-content;
+border: none;
+padding: 0;
+cursor: pointer;
+color: #000;
 }
 
 button {
     border: none;
     padding: 0;
-    border-radius: 0;
     cursor: pointer;
 }
 .container {
@@ -168,6 +173,7 @@ background: #FFBD59;
 font-size: 14px;
 font-weight: 600;
 border: none;
+max-width: max-content;
 border-radius: 25px;
 /* box-shadow: 0px 0px 2px 2px rgb(0, 0, 0); */
 display: block;
@@ -584,6 +590,9 @@ font-weight: 400;
     color: #272727;
     margin-top: 36px;
     padding: 17px 34px;
+    display: block;
+    max-width: fit-content;
+    border-radius: 25px;
 }
 
 .footer__contacts {
@@ -956,7 +965,7 @@ margin-bottom: 9px;
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 612px) {
     .footer__inner {
         flex-direction: column;
     }

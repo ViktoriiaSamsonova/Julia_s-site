@@ -177,6 +177,7 @@ max-width: max-content;
 border-radius: 25px;
 /* box-shadow: 0px 0px 2px 2px rgb(0, 0, 0); */
 display: block;
+white-space: nowrap;
 }
 
 .top__img {

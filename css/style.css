@@ -874,7 +874,7 @@ font-size: 12px;
 margin-bottom: 9px;
 }
 .button {
-    padding: 10px 10px;
+    padding: 10px 5px;
 }
 .courses__title {
     padding: 6px;
@@ -924,6 +924,9 @@ margin-bottom: 9px;
 }
 .feedback__item-content {
     padding-bottom: 45px;
+}
+.feedback__item-btn {
+    padding: 10px 25px;
 }
 .promo__text {
     font-size: 15px;

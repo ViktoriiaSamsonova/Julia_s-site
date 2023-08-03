@@ -1204,6 +1204,9 @@ margin-bottom: 9px;
     .courses__item {
         width: 255px;
     }
+    .products__content {
+        gap: 30px;
+    }
 .feedback__slider{
     width: 250px;
     margin: 0 auto;

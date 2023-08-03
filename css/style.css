@@ -628,6 +628,9 @@ font-weight: 400;
 
 
 @media (max-width: 1000px) {
+    .container {
+        max-width: 1000px;
+      }
     .steps__list{
         gap: 37px 35px;
     }
@@ -717,6 +720,9 @@ font-weight: 400;
 }
 
 @media ( max-width: 980px) {
+    .container {
+        max-width: 980px;
+      }
     .steps__title{
         font-size: 30px;
     }
@@ -752,8 +758,14 @@ font-weight: 400;
     .about__title {
         font-size: 25px;
     }
+    .container {
+        max-width: 900px;
+      }
 }
 @media (max-width: 812px) {
+    .container {
+        max-width: 812px;
+      }
     body {
         font-size: 10px;
     }
@@ -766,6 +778,9 @@ font-weight: 400;
 
 
 @media (max-width: 768px) {
+    .container {
+        max-width: 768px;
+      }
     body {
         font-size: 10px;
     }
@@ -954,6 +969,7 @@ margin-bottom: 9px;
     .container {
         padding-left: 10px;
         padding-right: 10px;
+        max-width: 655px;
     }
     .header__menu-list {
         width: 185pxpx;
@@ -997,6 +1013,9 @@ margin-bottom: 9px;
 }
 
 @media (max-width: 612px) {
+    .container {
+        max-width: 612px;
+      }
     .footer__inner {
         flex-direction: column;
     }
@@ -1018,6 +1037,9 @@ margin-bottom: 9px;
 
 
 @media (max-width: 480px) {
+    .container {
+        max-width: 480px;
+      }
     .top__img-group {
         width: 220px;
         margin-left: -20px;
@@ -1119,6 +1141,9 @@ margin-bottom: 9px;
 
 @media (max-width: 404px){
     
+    .container {
+        max-width: 404px;
+      }
     .steps__item {
         gap: 0 10px;
     }
@@ -1159,7 +1184,6 @@ margin-bottom: 9px;
     .courses__item {
         width: 255px;
     }
-
 .feedback__slider{
     width: 250px;
     margin: 0 auto;
@@ -1181,6 +1205,9 @@ margin-bottom: 9px;
 }
 
 @media (max-width: 360px){
+    .container {
+      max-width: 360px;
+    }
 .top__img-group {
     width: 150px;
     left: auto;

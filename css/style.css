@@ -57,6 +57,7 @@ button {
     border: none;
     padding: 0;
     cursor: pointer;
+    max-width: fit-content;
 }
 .container {
     max-width: 1180px;
@@ -90,7 +91,7 @@ button {
     background-color: #7B6152;
     width: 1000%;
     height: 1px;
-    
+    max-width: 1;
 }
 
 .menu__btn {
@@ -173,7 +174,7 @@ background: #FFBD59;
 font-size: 14px;
 font-weight: 600;
 border: none;
-max-width: max-content;
+max-width: fit-content;
 border-radius: 25px;
 /* box-shadow: 0px 0px 2px 2px rgb(0, 0, 0); */
 display: block;
@@ -628,7 +629,8 @@ font-weight: 400;
 
 
 @media (max-width: 1000px) {
-    .container {
+        .container,
+        .section--decor::after {
         max-width: 1000px;
       }
     .steps__list{
@@ -719,7 +721,8 @@ font-weight: 400;
 }
 }
 
-@media ( max-width: 980px) {
+.container,
+.section--decor::after {
     .container {
         max-width: 980px;
       }
@@ -758,12 +761,14 @@ font-weight: 400;
     .about__title {
         font-size: 25px;
     }
-    .container {
+    .container,
+    .section--decor::after {
         max-width: 900px;
       }
 }
 @media (max-width: 812px) {
-    .container {
+    .container,
+    .section--decor::after {
         max-width: 812px;
       }
     body {
@@ -778,7 +783,8 @@ font-weight: 400;
 
 
 @media (max-width: 768px) {
-    .container {
+    .container,
+    .section--decor::after {
         max-width: 768px;
       }
     body {
@@ -966,7 +972,8 @@ margin-bottom: 9px;
 
 
 @media (max-width: 655px) {
-    .container {
+    .container,
+    .section--decor::after {
         padding-left: 10px;
         padding-right: 10px;
         max-width: 655px;
@@ -1013,7 +1020,8 @@ margin-bottom: 9px;
 }
 
 @media (max-width: 612px) {
-    .container {
+    .container,
+    .section--decor::after {
         max-width: 612px;
       }
     .footer__inner {
@@ -1037,7 +1045,8 @@ margin-bottom: 9px;
 
 
 @media (max-width: 480px) {
-    .container {
+    .container,
+    .section--decor::after {
         max-width: 480px;
       }
     .top__img-group {
@@ -1094,7 +1103,7 @@ margin-bottom: 9px;
     }
 
     .products__content {
-        gap: 10px;
+        gap: 5px;
     }
 
     .section {
@@ -1141,7 +1150,8 @@ margin-bottom: 9px;
 
 @media (max-width: 404px){
     
-    .container {
+    .container,
+    .section--decor::after {
         max-width: 404px;
       }
     .steps__item {
@@ -1163,7 +1173,6 @@ margin-bottom: 9px;
     .about__title-page {
         font-size: 15px;
     }
-
     .team__content {
         grid-template-columns: auto;
     }
@@ -1205,7 +1214,8 @@ margin-bottom: 9px;
 }
 
 @media (max-width: 360px){
-    .container {
+    .container,
+    .section--decor::after {
       max-width: 360px;
     }
 .top__img-group {

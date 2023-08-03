@@ -48,9 +48,9 @@ border-radius: 50px;
 display: block;
 max-width: fit-content;
 border: none;
-padding: 0;
 cursor: pointer;
 color: #000;
+margin: 0 auto;
 }
 
 button {
@@ -179,9 +179,6 @@ border-radius: 25px;
 display: block;
 }
 
-.top__buy:hover {
-   
-}
 .top__img {
     position: absolute;
 top: 0;
@@ -192,7 +189,8 @@ left: 240px;
     background-color: #A5978E;
     padding: 50px 0;
     color: #FAFAFA;
-    margin-bottom: 150px;
+    /* margin-bottom: 150px; */
+    margin-top: 10px;
 }
 
 .about__inner{
@@ -200,12 +198,18 @@ left: 240px;
     align-items: center;
 }
 
+.about__inner-page{
+    display: flex;
+    align-items: center;
+}
+
 .about__content{
     min-width: 370px;
 }
-
-
-
+.about__title-page {
+    text-transform: uppercase;
+    font-size: 30px;
+}
 .about__text {
     margin-bottom: 15px;
 }
@@ -239,6 +243,7 @@ left: 240px;
     display: grid;
     grid-template-columns: auto auto;
     padding-bottom: 92px;
+    
 }
 
 .products__content {
@@ -273,6 +278,9 @@ height: 70px;
 .steps__list {
 gap: 70px 25px;
 counter-reset: number;
+}
+.steps__title-page {
+text-transform: uppercase;
 }
 
 .steps__item {
@@ -397,7 +405,7 @@ border-radius: 5px;
 .feedback__item {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 0 16px;
+    gap: 0 1px;
     align-items: center;
 }
 .feedback__descr {
@@ -442,8 +450,10 @@ border-radius: 5px;
 }
 .feedback__item-btn {
     position: absolute;
-    bottom: 10px;
-    right: 0;
+    margin-bottom: 10px;
+    max-width: 75px;
+    display: block;
+    text-align: center;
 
 }
 .feedback__slider {
@@ -723,6 +733,9 @@ font-weight: 400;
     .steps__item-text::before{
         font-size: 20px;
     }
+    .about__title-page {
+        font-size: 25px;
+    }
 }
 
 
@@ -735,11 +748,17 @@ font-weight: 400;
     .products__content {
         gap: 67px;
     }
+    .about__title {
+        font-size: 25px;
+    }
 }
 
-@media (max-width: 815px) {
+@media (max-width: 812px) {
     body {
         font-size: 10px;
+    }
+    .about__title-page {
+        font-size: 20px;
     }
 }
 @media (max-width: 768px) {
@@ -809,7 +828,7 @@ width: 120px;
 .products__item-img {
     width: 195px;
     max-height: 265px;
-    margin-bottom: 6px;
+    margin-bottom: 30px;
 }
 .button {
     font-size: 12px;
@@ -849,6 +868,10 @@ margin-bottom: 9px;
 }
 .products__content {
     gap: 30px;
+}
+.section__inner {
+    display: grid;
+    grid-template-columns: 130px auto;
 }
 .team__img {
     width: 140px;
@@ -958,6 +981,10 @@ margin-bottom: 9px;
         margin-bottom: 30px;
         text-align: center;
     }
+    .steps__list {
+        padding-left: 0;
+    }
+
     .team__item-box {
         right: auto;
         left: 80px;
@@ -982,10 +1009,11 @@ margin-bottom: 9px;
 }
 }
 
+
 @media (max-width: 480px) {
     .top__img-group {
-        width: 309px;
-        left: 167px;
+        width: 220px;
+        margin-left: -40px;
     }
     .top__content {
         width: 180px;
@@ -1028,6 +1056,10 @@ margin-bottom: 9px;
     .about__inner {
         align-items: flex-end;
     }
+    .about__inner-page{
+        flex-direction: column;
+    }
+
     .about {
         margin-bottom: 50px;
     }
@@ -1042,7 +1074,7 @@ margin-bottom: 9px;
         width: 300px;
     }
     .steps__list{
-        gap: 25px 40px;
+        gap: 15px 15px;
     }
     .team {
         margin-bottom: 50px;
@@ -1068,25 +1100,33 @@ margin-bottom: 9px;
 .contacts {
     padding-top: 50px;
 }
+.feedback__item-btn {
+   grid-column-start: auto;
+}
 }
 
 @media (max-width: 404px){
-    .steps__list{
-        gap: 20px 25px;
-    }
+    
     .steps__item {
-        gap: 0 16px;
+        gap: 0 10px;
     }
     .steps__item-img {
         width: 66px;
+        max-height: 110px;
     }
     .courses__item img {
         width: 255px;
         max-height: 345px;
+        
     }
     .courses__content {
         grid-template-columns: auto;
     }
+ 
+    .about__title-page {
+        font-size: 15px;
+    }
+
     .team__content {
         grid-template-columns: auto;
     }
@@ -1111,6 +1151,7 @@ margin-bottom: 9px;
 .feedback__slider{
     width: 250px;
     margin: 0 auto;
+    padding-bottom: 20px;
 }
 .feedback__item-img {
     width: 250px;
@@ -1121,9 +1162,9 @@ margin-bottom: 9px;
 }
 .feedback__item-btn{
     bottom: 0;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     left: 0;
-    max-width: 100px;
+    margin-bottom: -20px;
 }
 }
 
@@ -1201,12 +1242,9 @@ body {
 .courses__item {
     width: 255px;
 }
-
-
 .promo__text {
     margin-right: 50px;
 }
-
 .sertificates__slider{
     width: 200px;
 }

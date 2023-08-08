@@ -1083,7 +1083,7 @@ margin-bottom: 9px;
         padding: 30px 0 50px;
     }
     .top__inner{
-        height: 350px;
+        min-height: 350px;
     }
     .about__content {
         min-width: 170px;

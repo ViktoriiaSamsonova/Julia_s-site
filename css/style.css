@@ -1062,7 +1062,9 @@ margin-bottom: 9px;
       }
     .top__img-group {
         width: 220px;
-        margin-left: -20px;
+        position: relative;
+        top: 70px;
+        left: -20px;
     }
     .top__content {
         width: 180px;
@@ -1079,9 +1081,9 @@ margin-bottom: 9px;
         font-size: 10px;
         padding: 14px 41px;
     }
-    .top {
+    /* .top {
         padding: 30px 0 50px;
-    }
+    } */
     .top__inner{
         min-height: 350px;
     }
